@@ -16,4 +16,30 @@
 //После того, как созданная ранее функция примет как аргумент созданную строку - вернет следующее (например) - “Яблоко - 6 символов \n Морковь - 7 символов” и т.д до последнего слова
 //
 //Добавить в ваш калькулятор функции нахождения cos, sin, tg, ctg,(по углу) и %
+var multiple2 = 0
+var multiple3 = 0
+var multiple4 = 0
+var multiple5 = 0
+for item in 1...1000{
+    if(item % 2 == 0){
+    multiple2 += item
+        print(multiple2)
+    }
+    print("")
+    if(item % 3 == 0){
+    multiple3 += item
+        print(multiple3)
+    }
+    print("")
+    if(item % 4 == 0){
+    multiple4 += item
+        print(multiple4)
+    }
+    print("")
+    if(item % 5 == 0){
+    multiple5 += item
+        print(multiple5)
+    }
+}
+   
 
