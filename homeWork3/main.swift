@@ -12,32 +12,32 @@
 
 
 
-var multiple2 = 0
-var multiple3 = 0
-var multiple4 = 0
-var multiple5 = 0
-for item in 1...1000{
-    if(item % 2 == 0){
-    multiple2 += item
-        print("кратные 2:")
-        print(multiple2)
-    }
-    if(item % 3 == 0){
-    multiple3 += item
-        print("кратные 3:")
-        print(multiple3)
-    }
-    if(item % 4 == 0){
-    multiple4 += item
-        print("кратные 4:")
-        print(multiple4)
-    }
-    if(item % 5 == 0){
-    multiple5 += item
-        print("кратные 5:")
-        print(multiple5)
-    }
-}
+//var multiple2 = 0
+//var multiple3 = 0
+//var multiple4 = 0
+//var multiple5 = 0
+//for item in 1...1000{
+//    if(item % 2 == 0){
+//    multiple2 += item
+//        print("кратные 2:")
+//        print(multiple2)
+//    }
+//    if(item % 3 == 0){
+//    multiple3 += item
+//        print("кратные 3:")
+//        print(multiple3)
+//    }
+//    if(item % 4 == 0){
+//    multiple4 += item
+//        print("кратные 4:")
+//        print(multiple4)
+//    }
+//    if(item % 5 == 0){
+//    multiple5 += item
+//        print("кратные 5:")
+//        print(multiple5)
+//    }
+//}
    
 // Доп. задание
 //Используя условные операторы, функции и циклы создать следующую программу:
@@ -87,3 +87,8 @@ for char in string{
 totalString += " - \(count) символов "
 print(totalString)
 
+var a: Int8 = 10
+var b: Int8 = 10
+var c: Int32 = Int32(a) * Int32(b)
+print(c)
+ 
